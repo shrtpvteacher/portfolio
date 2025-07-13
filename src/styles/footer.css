@@ -1,0 +1,33 @@
+.footer {
+    color: rgb(7, 75, 88);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: relative;
+    background: #f2f4f5;
+   
+    width: 100%;
+    z-index: 5;
+}
+
+.footer-links {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+  
+.footer-links a {
+    color: #1d53f3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+   
+}
+  
+.footer-links a:hover {
+    color: #14ab58;
+}
+  
