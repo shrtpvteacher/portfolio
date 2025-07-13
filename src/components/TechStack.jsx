@@ -1,6 +1,5 @@
 // src/components/TechStack.jsx
 import React from 'react';
-//import '../TechStack.css'; // (optional) add custom spacing/styling here
 import VectorBg from "../assets/Vector.png";
 
 const techIcons = {
@@ -12,19 +11,12 @@ const techIcons = {
 
 };
 const techLogos = {
-  
-    //solidity: "https://static.cdnlogo.com/logos/s/73/solidity.svg",
-
- 
-   
-
-      solidity:
+  solidity:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
   tailwind:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
   nextjs:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-
 };
 
 const categories = [
@@ -69,8 +61,7 @@ export default function TechStack() {
                   key={name}
                   className="flex flex-col items-start w-24"
                   title={name}
-                >
-                    
+                >  
                   {name === "Solidity" ? (
     <div className="w-16 h-16 mb-2 flex items-center justify-center rounded-full bg-white p-2">
       <img
