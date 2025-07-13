@@ -33,6 +33,12 @@ body {
   min-height: 400px;
 }
 
+.chains-deployed {
+    background: radial-gradient(circle at top left, #b86df8, #4fd1c5, #3f8cd7, #803ef3);
+    padding: 3rem 1.5rem;
+    min-height: 400px;
+}
+
 /* TYPOGRAPHY */
 h1 {
     font-style: normal;
