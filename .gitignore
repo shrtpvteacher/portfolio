@@ -12,5 +12,6 @@ node_modules/
 # Logs
 npm-debug.log*
 
-
-
+# Build Output
+dist/
+build/
