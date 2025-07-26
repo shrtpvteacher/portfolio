@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="text-right space-x-3">
             <Link
               to="/about"
-              className="text-gray-300 hover:text-white underline text-sm"
+              className="text-green-400 hover:text-white underline text-sm"
             >
               About Me
             </Link>
@@ -67,7 +67,7 @@ const Footer = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white underline text-sm"
+              className="text-green-400 hover:text-white underline text-sm"
             >
               View My Resume
             </a>
