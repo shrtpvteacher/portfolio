@@ -5,7 +5,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen bg-[#1b1b2f] text-gray-200 px-6 py-12">
+    <div className="min-h-screen text-gray-200 px-6 py-12">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-purple-300">About Me</h1>
 
