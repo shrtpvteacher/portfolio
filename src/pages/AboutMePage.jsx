@@ -5,7 +5,12 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen text-gray-200 px-6 py-12">
+       <div 
+          className="w-full bg-cover bg-center  text-gray-200 py-16 px-6"
+          style={{ backgroundImage: `url(${VectorBg})` }}
+       
+    >
+         
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-purple-300">About Me</h1>
 
