@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from "react";
+import { Link } from "react-router-dom"; 
 
 const contactLinks = [
   {
@@ -53,8 +54,15 @@ const Footer = () => {
             ))}
           </div>
 
-          {/* Right: resume link */}
-          <div className="text-right">
+          {/* Right: about me & resume link */}
+          <div className="text-right space-x-3">
+            <Link
+              to="/about"
+              className="text-gray-300 hover:text-white underline text-sm"
+            >
+              About Me
+            </Link>
+             <span className="text-gray-400">•</span>
             <a
               href="/resume.pdf"
               target="_blank"
