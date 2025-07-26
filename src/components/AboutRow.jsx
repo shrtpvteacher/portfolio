@@ -33,7 +33,7 @@ export default AboutRow;  */
 
 // File: src/components/AboutRow.jsx
 
-import React from "react";
+/* import React from "react";
 
 const AboutRow = () => {
   return (
@@ -49,6 +49,6 @@ const AboutRow = () => {
       </p>
     </div>
   );
-};
+};  
 
-export default AboutRow;
+export default AboutRow;  */
