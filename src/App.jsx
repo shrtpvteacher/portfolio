@@ -11,6 +11,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<PortfolioPage />} />
+        <Route path="/about" element={<AboutMe />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />
