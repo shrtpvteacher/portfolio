@@ -13,8 +13,7 @@ export default function PortfolioPage() {
       {/* 2. Tech stack below */}
       <TechStack />
 
-       {/* 3. Add builder intro row */}
-      <AboutRow />
+     
      
 
       {/* 4. Projects below */}
