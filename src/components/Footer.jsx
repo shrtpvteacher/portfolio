@@ -29,7 +29,7 @@ const Footer = () => {
   return (
     <footer className="bg-indigo-800 text-gray-100 py-6 mt-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-6 sm:gap-y-0 items-center">
+        <div className="flex flex-col md:flex-row md:justify-between gap-6 items-center text-center md:text-left">
 
           {/* Left: copyright and connect */}
           <div className="text-left">
@@ -55,10 +55,10 @@ const Footer = () => {
           </div>
 
           {/* Right: about me & resume link */}
-          <div className="text-right space-x-3">
+          <div className="text-right space-x-2">
             <Link
               to="/about"
-              className="text-green-400 hover:text-white underline text-sm"
+              className="text-gray-400 hover:text-white underline text-sm"
             >
               About Me
             </Link>
@@ -67,7 +67,7 @@ const Footer = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-400 hover:text-white underline text-sm"
+              className="text-gray-400 hover:text-white underline text-sm"
             >
               View My Resume
             </a>

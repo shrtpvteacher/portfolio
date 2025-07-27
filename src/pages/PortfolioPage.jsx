@@ -2,6 +2,7 @@ import React from "react";
 import ContactSection from "../components/ContactSection";
 import TechStack from "../components/TechStack";
 import ProjectCardRow from "../components/ProjectCardRow";
+import AboutRow from "../components/AboutRow";
 
 
 export default function PortfolioPage() {
@@ -12,6 +13,8 @@ export default function PortfolioPage() {
 
       {/* 2. Tech stack below */}
       <TechStack />
+        {/* 3. About me section */} 
+        < AboutRow />
 
      
      
