@@ -13,7 +13,7 @@ const AboutMe = () => {
         <h1 className="text-4xl font-bold mb-8 text-purple-300">About Me</h1>
 
         <p className="text-lg mb-6 leading-relaxed">
-          I am a self-taught full stack Web3 engineer with a builder’s mindset and a deeply hands-on approach to both life and software. From restoring hardware to wiring solar power, from smart contract security to solving real-world problems with code—everything I do centers around learning, building, and improving.
+          I am a full stack Web3 engineer with a builder’s mindset and a deeply hands-on approach to both life and software. From restoring hardware to wiring solar power, from smart contract security to solving real-world problems with code—everything I do centers around learning, building, and improving.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4 text-purple-400">How It Started</h2>
