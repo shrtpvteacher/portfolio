@@ -3,13 +3,21 @@
 
 import React from "react";
 import VectorBg from "../assets/Vector.png";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 
 const AboutMe = () => {
   return (
-    
+     
+
+       
     <div className="min-h-screen text-gray-200 px-6 py-12"
          style={{ backgroundImage: `url(${VectorBg})` }}>
       <div className="max-w-3xl mx-auto">
+         <Link to="/" className="flex items-center text-purple-300 hover:text-purple-500 mb-6">
+          <ArrowLeft className="mr-2" />
+          Back to Home
+        </Link>
         <h1 className="text-4xl font-bold mb-8 text-purple-300">About Me</h1>
 
         <p className="text-lg mb-6 leading-relaxed">
