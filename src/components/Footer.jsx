@@ -55,14 +55,14 @@ const Footer = () => {
           </div>
 
           {/* Right: about me & resume link */}
-          <div className="text-right space-x-2">
+          <div className="text-right space-x-6 mr-2">
             <Link
               to="/about"
               className="text-gray-400 hover:text-white underline text-sm"
             >
               About Me
             </Link>
-             <span className="text-gray-400">•</span>
+             <span className="text-gray-400 ">•</span>
             <a
               href="/resume.pdf"
               target="_blank"

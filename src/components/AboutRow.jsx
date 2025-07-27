@@ -5,7 +5,7 @@
 const AboutRow = () => {
   return (
  
-      <div className=" mx-4 text-left px-1 py-1">
+      <div className=" mx-4 mb-10 text-left px-1 py-1">
         <h2 className="text-2xl mb-4 font-bold text-purple-300">Roles of Interest</h2>
 
         <p className="text-lg mb-12">
