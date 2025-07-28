@@ -9,7 +9,7 @@ const AboutRow = () => {
         <h2 className="text-2xl mb-4 font-bold text-purple-300">Roles of Interest</h2>
 
         <p className="text-lg mb-12">
-           Full Stack Web3 Engineering, Developer Relations.  
+           Full Stack Web3 Engineer, Developer Relations, .  
         </p>
        
 

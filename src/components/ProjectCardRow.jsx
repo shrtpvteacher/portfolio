@@ -29,7 +29,7 @@ export default function ProjectCardRow() {
                 href="https://my-subscription-tracker.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-black text-white py-2 rounded-lg text-center font-semibold hover:bg-gray-900 transition-colors"
+                className="flex-1 bg-black text-white py-2 rounded-lg text-center font-semibold hover:bg-gray-300 hover:outline-black hover:text-gray-900 transition-colors"
               >
                 Site
               </a>
@@ -37,7 +37,7 @@ export default function ProjectCardRow() {
                 href="https://github.com/shrtpvteacher/subscription-tracker"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-gray-200 text-black py-2 rounded-lg text-center font-semibold hover:bg-gray-300 transition-colors"
+                className="flex-1 bg-gray-300 text-black py-2 rounded-lg text-center font-semibold hover:bg-purple-900  hover:text-gray-50 transition-colors"
               >
                 Code
               </a>
@@ -63,7 +63,7 @@ export default function ProjectCardRow() {
                 href="https://seeds2treesnfts.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-black text-white py-2 rounded-lg text-center font-semibold hover:bg-gray-900 transition-colors"
+                className="flex-1 bg-black text-white py-2 rounded-lg text-center font-semibold hover:bg-gray-300 hover:text-gray-950 transition-colors"
               >
                 Site
               </a>
@@ -71,7 +71,7 @@ export default function ProjectCardRow() {
                 href="https://github.com/shrtpvteacher/Seeds2TreesNFTs"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-gray-200 text-black py-2 rounded-lg text-center font-semibold hover:bg-gray-300 transition-colors"
+                className="flex-1 bg-gray-300 text-black py-2 rounded-lg text-center font-semibold hover:bg-green-600  hover:text-white transition-colors"
               >
                 Code
               </a>
@@ -97,7 +97,7 @@ export default function ProjectCardRow() {
                 href="https://freelancepayables.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-black text-white py-2 rounded-lg text-center font-semibold hover:bg-gray-900 transition-colors"
+                className="flex-1 bg-black text-white py-2 rounded-lg text-center font-semibold hover:bg-gray-300 hover:text-black transition-colors"
               >
                 Site
               </a>
@@ -105,7 +105,7 @@ export default function ProjectCardRow() {
                 href="https://github.com/shrtpvteacher/FreelancePayables"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-gray-200 text-black py-2 rounded-lg text-center font-semibold hover:bg-gray-300 transition-colors"
+                className="flex-1 bg-gray-300 text-black py-2 rounded-lg text-center font-semibold  hover:bg-blue-500 hover:text-white transition-colors"
               >
                 Code
               </a>
